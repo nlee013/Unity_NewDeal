@@ -6,13 +6,7 @@ public class PlayerMode : MonoBehaviour
 {
     //velocity
     public float speed = 7;
-
-    //missile prefab
-    public GameObject missilePrefabs;
-
-    [SerializeField]
-    //missile starting position
-    public GameObject firePosition;
+     
 
     // Start is called before the first frame update
     void Start()
@@ -32,15 +26,9 @@ public class PlayerMode : MonoBehaviour
         //movement
         transform.Translate(dir * speed * Time.deltaTime);
 
-        if (Input.GetMouseButton(0))
-        {
-            Fire();
-        }
+       
     }
 
-    void Fire()
-    {
-        Instantiate(missilePrefabs, firePosition.transform.position, firePosition.transform.rotation);
-    }
+    
 
 }

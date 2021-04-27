@@ -18,10 +18,10 @@ public class Missile : MonoBehaviour
     void Update()
     {
 
-    Vector3 dir = Vector3.up;
+        // Vector3 dir = Vector3.up;
 
         //movement
-        transform.Translate(Vector3.up*MissileSpeed * Time.deltaTime);
+        transform.Translate(Vector3.up * MissileSpeed * Time.deltaTime);
 
     }
 
