@@ -9,7 +9,7 @@ public class EnemyManager : MonoBehaviour
     float minTime = 1;
 
     //maximum time
-    float maxTime = 5;
+    float maxTime = 7;
 
     //현재 시간
     float currentTime = 0;
@@ -25,7 +25,7 @@ public class EnemyManager : MonoBehaviour
     void Start()
     {
         //처음 적이 생성 될 시간 설정
-        //currentTime = Random.Range(minTime, maxTime);
+        appearTime = Random.Range(minTime, maxTime);
     }
 
     // Update is called once per frame
@@ -47,7 +47,7 @@ public class EnemyManager : MonoBehaviour
             currentTime = 0;
 
             //적이 생성 후 적 생성 시간 다시 설정
-            currentTime = Random.Range(minTime, maxTime);
+            appearTime = Random.Range(minTime, maxTime);
         }
     }
 }

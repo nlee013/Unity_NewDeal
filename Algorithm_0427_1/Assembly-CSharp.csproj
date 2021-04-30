@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Algorithm.cs" />
+    <Compile Include="Assets\Scripts\ChangeNumArr.cs" />
+    <Compile Include="Assets\Scripts\PrintMiddlePart.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
