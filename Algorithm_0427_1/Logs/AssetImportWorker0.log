@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'ko' Physical Memory: 16315 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,14 +15,14 @@ C:/Users/DMC CONET/Desktop/이나영/Unity_NewDeal/Algorithm_0427_1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53345
+59384
 Successfully changed project path to: C:/Users/DMC CONET/Desktop/이나영/Unity_NewDeal/Algorithm_0427_1
 C:/Users/DMC CONET/Desktop/이나영/Unity_NewDeal/Algorithm_0427_1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 19.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/DMC CONET/Desktop/이나영/Unity_NewDeal/Algorithm_0427_1/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
@@ -32,52 +32,78 @@ Direct3D:
     VRAM:     5991 MB
     Driver:   27.21.14.5751
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001721 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001738 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 19.95 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.584 seconds
+- Completed reload, in  1.549 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000652 seconds.
+Registered in 0.000570 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.767 seconds
+- Completed reload, in  0.735 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.2 MB.
 System memory in use after: 57.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1560.
-Total: 1.917200 ms (FindLiveObjects: 0.127300 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.676400 ms  DeleteObjects: 0.078100 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 1.527300 ms (FindLiveObjects: 0.142600 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.285500 ms  DeleteObjects: 0.062600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/PrintMiddlePart.cs
-  artifactKey: Guid(9e763878509a7704f9d1a723d05261e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PrintMiddlePart.cs using Guid(9e763878509a7704f9d1a723d05261e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bd0c77c58e5867d96b0f3641f9e690') in 0.031313 seconds
-  Import took 0.034111 seconds .
+  path: Assets/Scripts/ALgo_0503.cs
+  artifactKey: Guid(6a8cb2f9888df3849af4353650e92387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ALgo_0503.cs using Guid(6a8cb2f9888df3849af4353650e92387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab94fd5e014b36765db209d19d22fa55') in 0.027477 seconds
+  Import took 0.029255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.467130 seconds.
+  path: Assets/Scripts/Algo_0503.cs
+  artifactKey: Guid(6a8cb2f9888df3849af4353650e92387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Algo_0503.cs using Guid(6a8cb2f9888df3849af4353650e92387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c38809e5522ebcc951f6dbf6da9447') in 0.005753 seconds
+  Import took 0.007671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 934.623206 seconds.
+  path: Assets/Scripts/Algo_0503.cs
+  artifactKey: Guid(6a8cb2f9888df3849af4353650e92387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Algo_0503.cs using Guid(6a8cb2f9888df3849af4353650e92387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af54c721353469690a9d89c69338972b') in 0.013225 seconds
+  Import took 0.016633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1266.624808 seconds.
+  path: Assets/Scripts/Algo_0503.cs
+  artifactKey: Guid(6a8cb2f9888df3849af4353650e92387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Algo_0503.cs using Guid(6a8cb2f9888df3849af4353650e92387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec21bd6c1e69915a1803b30bfe7b94f') in 0.001921 seconds
+  Import took 0.003950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015342 seconds.
+  path: Assets/Scripts/Algo_0503.cs
+  artifactKey: Guid(6a8cb2f9888df3849af4353650e92387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Algo_0503.cs using Guid(6a8cb2f9888df3849af4353650e92387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec21bd6c1e69915a1803b30bfe7b94f') in 0.001767 seconds
+  Import took 0.003442 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

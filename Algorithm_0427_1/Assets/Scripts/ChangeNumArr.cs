@@ -30,7 +30,7 @@ public class ChangeNumArr : MonoBehaviour
                 for (int i = 0; i < numArr.Length; i++)
                 {
                 var random = new Random();
-                list.Add(random.Next())
+                list.Add(random.Next());
                     //allNum = allNum + numArr[i];
                     //allNum = allNum + "";
 

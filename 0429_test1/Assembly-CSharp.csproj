@@ -57,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\TestIf.cs" />
-    <Compile Include="Assets\Scripts\SwitchTest.cs" />
     <Compile Include="Assets\Scripts\RaycastHit.cs" />
+    <Compile Include="Assets\Scripts\SwitchTest.cs" />
+    <Compile Include="Assets\Scripts\SaveTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
