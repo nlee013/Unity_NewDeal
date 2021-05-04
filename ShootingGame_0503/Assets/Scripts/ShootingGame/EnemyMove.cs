@@ -38,18 +38,20 @@ public class EnemyMove : MonoBehaviour
         if (ranValue < 3)
         {
             // a.플레이어를 찾기
-            GameObject player = GameObject.Find("Player");
+            if (GameObject.Find("Player"))
+            {
 
-            // b.방향구하기 : 플레이어쪽 방향 (Player포지션 - Enemy포지션) : 방향 벡터
-            dir = player.transform.position - transform.position;
+                // b.방향구하기 : 플레이어쪽 방향 (Player포지션 - Enemy포지션) : 방향 벡터
+                dir = player.transform.position - transform.position;
 
-            //  방향 크기 벡터 1로 만들기
-            dir.Normalize();
-        }
-        else
-        {
-            // 3. 나머지는 아래로
-            dir = Vector3.down;
+                //  방향 크기 벡터 1로 만들기
+                dir.Normalize();
+            }
+            else
+            {
+                // 3. 나머지는 아래로
+                dir = Vector3.down;
+            }
         }
     }
 
@@ -81,8 +83,6 @@ public class EnemyMove : MonoBehaviour
 
         //**************************
 
-
-
         //1.score manager 객체를 가져오자 : 유니티 함수 사용 - Find
         GameObject go = GameObject.Find("ScoreManager");
 
@@ -104,12 +104,9 @@ public class EnemyMove : MonoBehaviour
 
             //4. UI text를 통해 표시
             sm.BestScoretxt.text = "Best score : " + sm.BestScore;
+
         }
 
-
-
     }
-
-
 
 }

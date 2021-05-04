@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/0503_totallyReview.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

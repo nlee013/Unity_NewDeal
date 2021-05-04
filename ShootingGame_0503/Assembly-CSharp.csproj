@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\ShootingGame\PlayerFIre.cs" />
     <Compile Include="Assets\Scripts\ShootingGame\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\ShootingGame\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\ShootingGame\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\ShootingGame\Missile.cs" />
     <Compile Include="Assets\Scripts\Algo\Algo2.cs" />
     <Compile Include="Assets\FireExplosionVFX\Scripts\FxSplash.cs" />
@@ -70,7 +71,14 @@
     <Compile Include="Assets\Scripts\ShootingGame\DestoryBar.cs" />
     <Compile Include="Assets\CameraShakeFX\Scripts\StressReceiver.cs" />
     <Compile Include="Assets\Scripts\Algo\Algo1.cs" />
-    <Compile Include="Assets\Scripts\ShootingGame\ScoreManager.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\Scripts\ShootingGame\UIManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

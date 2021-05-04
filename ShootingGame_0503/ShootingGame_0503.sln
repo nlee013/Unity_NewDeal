@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityEditor", "FMODUnit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODUnityResonanceEditor", "FMODUnityResonanceEditor.csproj", "{DA5A80A0-36EB-9D92-C603-AA7B53253CE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{8E55D505-FA10-8687-DB59-BC15B9DA8BC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{DA5A80A0-36EB-9D92-C603-AA7B53253CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA5A80A0-36EB-9D92-C603-AA7B53253CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA5A80A0-36EB-9D92-C603-AA7B53253CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E55D505-FA10-8687-DB59-BC15B9DA8BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E55D505-FA10-8687-DB59-BC15B9DA8BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E55D505-FA10-8687-DB59-BC15B9DA8BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E55D505-FA10-8687-DB59-BC15B9DA8BC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

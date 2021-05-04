@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-
     //이동속도
     public float speed = 5;
+
+    //VariableJoystick Asset
+    public VariableJoystick variableJoystick;
+
+    //UI
+    public GameObject ui;
 
     // Start is called before the first frame update
     void Start()
@@ -30,5 +35,7 @@ public class PlayerMove : MonoBehaviour
 
         //P = P0 + vt(현재위치 + 가속도*시간)
         transform.position = transform.position + dir * speed * Time.deltaTime;
+
+
     }
 }
