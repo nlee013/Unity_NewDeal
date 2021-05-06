@@ -7,6 +7,9 @@ public class MainUI : MonoBehaviour
     public enum BTNType
     {
         PLAY,
-        QUIT
+        QUIT,
+        ERROR,
+        NEXT
+        
     }
 }

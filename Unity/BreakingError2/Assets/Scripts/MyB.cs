@@ -26,6 +26,15 @@ public class MyB : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
                 Application.Quit();
                 Debug.Log("finish");
                 break;
+
+            case MainUI.BTNType.ERROR:
+                Error.LoadSceneHandle("Game", 0);
+                break;
+
+            case MainUI.BTNType.NEXT:
+                MainScene.LoadSceneHandle("MainGame", 0);
+                break;
+
         }
     }
     public void OnPointerEnter(PointerEventData eventData)

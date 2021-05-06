@@ -15,6 +15,7 @@ public class SceneLoader : MonoBehaviour
     private void Start()
     {
         StartCoroutine(LoadScene());
+        
     }
 
     public static void LoadSceneHandle(string _name, int _loadType)
@@ -22,6 +23,7 @@ public class SceneLoader : MonoBehaviour
         loadScene = _name;
         loadType = _loadType;
         SceneManager.LoadScene("Load");
+      
     }
 
     IEnumerator LoadScene()
@@ -49,7 +51,7 @@ public class SceneLoader : MonoBehaviour
 
             if (progressbar.value >= 1f)
             {
-                loadText.text = "Press Next";
+                loadText.text = "Press Space";
             }
             if (Input.GetKeyDown(KeyCode.Space)&&progressbar.value>=1f&&operation.progress>=.9f)
             {
@@ -59,5 +61,8 @@ public class SceneLoader : MonoBehaviour
 
 
     }
+
+    
+
 }
 
